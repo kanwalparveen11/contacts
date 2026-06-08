@@ -1,0 +1,9 @@
+import {userState, useContext} from "react";
+const ContextDetailPage = () => {
+return(
+<div>
+<h2>contact detail page</h2>
+</div>
+);
+}
+export default ContactDetailPage;
