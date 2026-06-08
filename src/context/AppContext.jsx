@@ -24,4 +24,4 @@ export const AppProvider = ({children}) => {
      <AppContext.provider value={[currentState, setCurrentState, loggedIn,logout]}></AppContext.provider>
      {children});
 }
-export default AppContext = () => {}
+export default AppContext;
